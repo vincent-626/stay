@@ -105,7 +105,7 @@ function BookingWidget({ place }) {
 
       <button
         onClick={bookThisPlace}
-        className="mt-4 primary"
+        className="mt-4 primary hover:bg-[#A97791] transition-all duration-300"
       >
         Book this place
         {numberOfNights > 0 && (

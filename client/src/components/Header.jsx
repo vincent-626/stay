@@ -11,7 +11,7 @@ export default function Header() {
         to="/"
         className="flex items-center gap-1"
       >
-        <span className="text-3xl font-bold">Stay.</span>
+        <span className="ml-4 text-3xl font-bold">Stay.</span>
       </Link>
       <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-full">
         <svg

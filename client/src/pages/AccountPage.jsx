@@ -32,7 +32,7 @@ function AccountPage() {
       <div className="max-w-lg mx-auto text-center">
         Logged in as {user.name} ({user.email}) <br />
         <button
-          className="max-w-sm mt-2 primary"
+          className="max-w-sm mt-2 primary hover:bg-[#A97791] transition-all duration-300"
           onClick={logout}
         >
           Logout

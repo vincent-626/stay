@@ -8,11 +8,12 @@ function AccountNav() {
   if (subpage === undefined) subpage = "profile";
 
   function linkClasses(type = null) {
-    let classes = "px-6 py-2 inline-flex gap-1 rounded-full";
+    let classes =
+      "px-6 py-2 inline-flex gap-1 rounded-full transition-all duration-300";
     if (type === subpage) {
-      classes += " bg-primary text-white";
+      classes += " bg-primary text-white hover:bg-[#A97791]";
     } else {
-      classes += " bg-gray-200";
+      classes += " bg-gray-200 hover:bg-gray-300";
     }
     return classes;
   }
